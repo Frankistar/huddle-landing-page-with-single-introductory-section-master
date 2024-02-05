@@ -29,8 +29,11 @@ body {
   margin: 0 2rem;
 }
 .header {
-  width: 190px;
+  width: 150px;
   padding-bottom: 20px;
+}
+.header > img {
+  width: 100%;
 }
 .main {
   display: flex;
@@ -112,6 +115,12 @@ body {
 }
 
 @media screen and (max-width:768px) {
+    body {
+      background-image: url(./images/bg-mobile.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      color: red;
+    }
     .main {
         flex-direction: column;
         text-align: center;
