@@ -66,7 +66,7 @@ body {
 }
 #profile > h2 {
   margin: 20px auto;
-  color: #bfe2ca;
+  color: #1c1f1d;
   box-shadow: 1px 1px 5px 1px black;
   width: 150px;
 }
@@ -83,6 +83,10 @@ body {
 }
 .profile > button:active + #profile {
   display: block;
+}
+.profile > button:hover {
+  background-color: var(--Soft-Magenta);
+  cursor: pointer;
 }
 
 .main {
